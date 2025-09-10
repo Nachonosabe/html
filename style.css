@@ -14,3 +14,34 @@ img{
     margin: 0 auto
      ; width: 800px; ; 
 }
+
+
+
+a{
+    color: aliceblue;
+    background-color: #0046a8;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 50px;
+}
+@keyframes bk-change {
+    2% {
+      background-color: rgb(255, 0, 0);
+    }
+  
+    50% {
+      background-color: rgb(21, 0, 255);
+    }
+    100% {
+      background-color: rgb(238, 255, 0);
+    }
+    
+    0% {
+      background-color: rgb(255, 0, 0);
+    }
+    
+}
+a:hover{
+    animation: bk-change 3s infinite;
+}
